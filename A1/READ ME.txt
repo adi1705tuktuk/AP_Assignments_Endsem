@@ -1,0 +1,60 @@
+Library Management System
+
+This Java program is a simple library management system that allows librarians and library members to perform various tasks related to managing books and member accounts. Users can log in as librarians or members and use the command-line interface to access different functionalities.
+
+This program models a library with features for adding and removing books, registering and removing members, and handling book borrowing, returns, and fines. Here's an overview of the classes and their functionalities:
+
+Book Class:
+Represents a book with attributes such as bookID, title, author, total copies, and available copies.
+Methods to get book information and update available copies when borrowed or returned.
+
+Member Class:
+Represents a library member with attributes like memberID, name, age, phone number, borrowed books, and fine amount.
+Methods for borrowing, returning books, and paying fines.
+
+Library Class:
+Manages books and members in the library.
+Provides methods for adding/removing books and members, listing available books, listing books borrowed by members, issuing/returning books, and handling fines.
+The main method serves as the entry point for the library management system, allowing users to log in as a librarian or member and perform various library-related tasks.
+
+The program has a simple command-line interface (CLI) where users can select options to perform different actions, such as adding books, registering members, borrowing books, and more. It keeps track of fine amounts for members who return books late and allows librarians to manage the library's inventory.
+
+Main Menu
+
+When you run the program, you will be presented with a main menu. Choose one of the following options:
+
+Enter as a librarian: Log in as a librarian to manage books and member accounts.
+Enter as a member: Log in as a library member to borrow, return books, and pay fines.
+Exit: Exit the program.
+
+Librarian Menu
+
+If you select "Enter as a librarian," you will have access to the librarian menu. In this menu, you can perform the following actions:
+
+Register a member: Add a new library member to the system.
+Remove a member: Remove a library member from the system.
+Add a book: Add one or more copies of a book to the library.
+Remove a book: Remove a book from the library.
+View all members along with their books and fines: Display a list of all members, their borrowed books, and fine amounts.
+View all books: Display a list of all books in the library.
+Back: Return to the main menu.
+
+Member Menu
+
+If you select "Enter as a member," you will have access to the member menu once you enter the name and number of the member. In this menu, you can perform the following actions:
+
+List Available Books: Display a list of books available for borrowing.
+List My Books: Display a list of books you have borrowed.
+Issue a book: Borrow a book from the library.
+Return a book: Return a borrowed book and specify the number of days it is late (if applicable).(ASSUMPTION-Have assumed an input user will put which determines the number of days after the due date when the book is returned)
+Pay Fine: Pay any outstanding fines.
+Back: Return to the main menu.
+
+Aditya Prasad
+2022036
+BTech CSAI
+
+
+
+
+
